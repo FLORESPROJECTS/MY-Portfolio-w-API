@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator{
+     background-color: #3a4452;
+     padding: 20px;
+     border-radius: 10px;
+
+}
+.calculator form input{
+     border: 0;
+     outline: 0;
+     width: 60px;
+     height: 60px;
+     border-radius: 10px;
+     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+     background: transparent;
+     font-size: 20px;
+     color: #fff;
+     cursor: pointer;
+     margin: 10px;
+}
+form input.operator{
+    color: #fb0404;
+}
+form input.equal{
+    width: 145px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+body {
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(img/galaxy.avif);
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    font-weight: 900;
+}
+
+
+.navbar {
+    width: 28%;
+    justify-content: center;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 20px;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.container {
+    width: 80%;
+    margin: 100px;
+    background-color: #ffffff50;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 100px; 
+    min-height: 100vh;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 100px;
+}

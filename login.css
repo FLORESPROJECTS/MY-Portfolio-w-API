@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: transparent;
+    background-image: url(img/univers.jpg);
+    background-size: cover;
+    display: flow-root;
+}
+
+.login {
+    width: 48%;
+    border: 2px solid #1c249760;
+    box-shadow: 0 0 100px rgb(5, 5, 5);
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    padding: 40px;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    margin-left: 410px;
+}
+
+.login input {
+    margin-left: 20px;
+}
+
+.login label {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#email {
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px solid black;
+}
+
+#password {
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px solid black;
+}
+
+#submitbtn {
+    width: 50%;
+    font-size: 20px;
+    color: #fff;
+    background-color: green;
+    border-radius: 30px;
+    padding: 10px;
+    border: 0px solid black;
+    font-weight: 800;
+}
+
+#submitbtn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+#signupbtn {
+    width: 50%;
+    font-size: 20px;
+    color: #fff;
+    background-color: green;
+    border-radius: 30px;
+    padding: 10px;
+    border: 0px solid black;
+    font-weight: 800;
+}

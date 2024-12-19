@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(img/tulips.webp);
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    color: #000000;
+    font-weight: 900;
+}
+
+.navbar {
+    width: 40%;
+    justify-content: center;
+    margin-right: 60px;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #030303;
+    font-weight: 900;
+    margin-left: 20px;
+    transition: .1s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.description {
+    width: 60%;
+    right: 25%;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    height: 200px;
+    position: absolute;
+}
+
+.description h3{
+    color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+}
+.description p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #030303;
+}
+
+.description2 p {
+    font-size: 20px;
+    font-weight: 2;
+    color: #000000;
+}
+
+.description2 i {
+    font-size: 28px;
+    margin-left: 150px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 50px rgb(14, 140, 194);
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: 900;
+    padding: 15px;
+}
